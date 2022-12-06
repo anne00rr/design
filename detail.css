@@ -1,0 +1,96 @@
+section {
+    height: 870px;
+    position: relative;
+    top: 90px;
+    padding: 20px 0 20px 15px;
+    background: rgba(255,255,255,.6);    
+}
+
+#top {
+    margin: 10px 0 50px 0;
+    font-size: 14px;
+    color:#000;
+}
+#top span:last-child {
+    position:absolute;
+    right: 20px;
+}
+
+
+/* 좌측영역 */
+#detail_left {
+    position: absolute;
+    top: 345px;
+
+}
+
+#big_img {
+    width: 480px;
+    height: 300px;
+    border: 1px solid #ccc;
+    background: url(img/img05.webp) no-repeat;
+    background-size: cover;
+    margin-right: 20px;
+    position: relative;
+    top: -240px;
+}
+.small_img {
+    width: 50px;
+    height: 50px;
+    background: url(img/img05.webp) no-repeat;
+    background-size: cover;
+    display: inline-block;
+    position: relative;
+    top: -230px;
+}
+.small_img:hover {
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+#detail_left p {
+    position: relative;
+    top: -200px;
+}
+
+
+/* 우측영역 */
+#detail_right {
+    width: 350px;
+    /* display: inline-block; */
+    position: absolute;
+    right: 30px;
+    margin-bottom: 200px;;
+}
+#detail_right h3 {
+    font-size: 26px;
+}
+#detail_right p[id=price] {
+    font-size:20px;
+    margin: 20px 0;
+}
+
+input {
+    width: 60px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#detail_right button {
+    width: 350px;
+    height: 35px;
+    margin: 30px 0 20px 0;
+}
+#detail_right .pTitle {
+    margin: 20px 0;
+    background: url(img/pTitle_down.png) no-repeat right;
+}
+#detail_right p {
+    font-size: 14px;
+    margin: 0 0 10px 0;
+}
+
+#detail_right img {
+    width: 16px;
+    margin: 30px 20px 0 0;
+}

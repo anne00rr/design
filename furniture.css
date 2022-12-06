@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+p {
+    text-align: justify;
+    line-height: 22px;
+}
+h2 {
+    font-size: 30px;
+    color: #405357;
+}
+h2 span {
+    font-size: 20px;
+}
+span {
+    font-size: 14px;
+}
+
+
+/* 구조화 */
+#wrap {
+    width: 900px;
+    margin: 0 auto;
+    padding: 0 10px;
+    /* border: 1px solid red; */
+    /* position: relative; */
+}
+body {
+    background: #CFE4E8;
+}
+/* css에서 스크롤바를 보이지 않게 처리 */
+/* ::-webkit-scrollbar {
+     display: none;
+   } */
+
+/* ::-webkit-scrollbar 웹표준이 아니므로 스크롤 항상 보이게 처리 */
+html {
+    overflow-y:scroll; 
+}
+
+
+
+button {
+    height: 30px;
+    background: #567f87;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #405357;
+}
+
+
+
+
+/* 상단공간 2022-11-18*/
+header {
+    background: #fdfdfd;
+    opacity: 80%;
+    position: fixed; top:0 ;
+    box-shadow: 0 1px 3px #ccc;
+    width: inherit;
+    height: 90px;
+    z-index: 2000;
+}
+/* 너비값을 부모요소에서 그대로 받아오는 inherit */
+
+
+h1 {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+h1 a {
+    color: #000;
+}
+
+nav {
+    position: absolute;
+    right: 50px;
+    top: 18px;
+    color: #999;
+}
+nav ul {
+    width: 530px;
+}
+nav a {
+    color: #999;
+}
+
+nav li a:hover {
+    color:#2c3c3f;
+}
+
+nav li {
+    display: inline-block;
+    padding: 20px 15px;
+}
+
+nav img {
+    width: 24px;
+    position: absolute;
+    right: -24px;
+    top: 18px;
+}
+
+nav li:last-child {
+    padding: 0 15px;
+
+}
+
+
+
+/* 푸터 시작 */
+footer {
+    background: #607d82;
+    height: 230px;
+    clear: both;
+    position: relative;
+    /* position: absolute;
+    bottom: 0; */
+    color: white;
+}
+
+footer li:nth-child(1) {
+    width: 160px;
+    /* float: left; */
+    position: absolute;
+    left: 20px;
+    top: 30px;
+}
+
+footer li:nth-child(1) p img {
+    width: 20px;
+    margin: 10px 24px 0 0;
+}
+
+footer li:nth-child(2) {
+    width: 200px;
+    /* float: left; */
+    position: absolute;
+    left: 250px;
+    top: 30px;
+}
+footer li:nth-child(2) p img {
+    width: 25px;
+    margin: 12px 10px 0 0;
+}
+
+footer li:nth-child(3) {
+    /* width: 500px; */
+    /* float: left; */
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+footer li b {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+footer p {
+    font-size: 14px;
+}
+
+footer li input {
+    width: 330px;
+    height: 24px;
+    background: rgba(255,255,255,.7);
+    border: 1px solid #333;
+    margin: 15px 0 5px 0;
+    padding: 2px 0 2px 20px;
+    /* text-indent: 1em; */
+}
+
+footer li button {
+    width: 352px;
+    height: 30px;
+    background: #405357;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer .copy p {
+    position: absolute;
+    bottom: 0;
+    background: #5e5e5e;
+    width: 97.8%;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+    
+}
